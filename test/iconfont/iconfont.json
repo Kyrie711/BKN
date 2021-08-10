@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14112850",
+      "name": "对",
+      "font_class": "dui",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "18517148",
+      "name": "二维码",
+      "font_class": "0-13",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

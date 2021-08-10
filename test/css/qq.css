@@ -1,0 +1,264 @@
+a{
+    text-decoration: none;
+    color: #1d5494;
+    font-size: 12px;
+}
+img{
+    vertical-align: top;
+}
+.topbar-wrapper{
+    width: 100%;
+    height: 63px;
+    background-color: #eff4fa;
+    border-bottom: 1px #d6dfea solid;
+}
+
+.topbar{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.topbar .logo{
+    float: left;
+    margin-top: 14px;
+}
+
+.nav ul{
+    float: right;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav li{
+    float: left;
+    height: 63px;
+    line-height: 63px;
+}
+
+.nav .line{
+    color: #afafbe;
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.main{
+    /* margin-top: 70px; */
+    width: 960px;
+    margin: 70px auto 0;
+}
+.banner{
+    float: left;
+    width: 520px;
+    height: 400px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    background-image: url("../img/change.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.text{
+    margin-top: 25px;
+}
+.banner span{
+    font-size: 24px;
+    color: #6f95c8;
+    line-height: 56px;
+}
+
+.login{
+    float: right;
+    /* width: 334px; */
+    height: 387px;
+    /* border: 1px #a0b1c4 solid; */
+    /* border-radius: 5px; */
+    margin-right: 20px;
+    /* background-color: #f9fbfe; */
+}
+.login-top{
+    height: 52px;
+}
+.login-top li{
+    float: left;
+}
+.login-top a{
+    display: block;
+    width: 167px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #a0b1c4;
+    background-color: #f9fbfe;
+}
+
+.login-top .vx{
+    color: #999999;
+    border-right: none;
+    border-top-left-radius: 5px;
+}
+
+.login-top .qq{
+    border-left: none;
+    border-top-right-radius: 5px;   
+}
+
+.login-main{
+    border: 1px #a0b1c4 solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    height: 334px;
+    overflow: hidden;
+}
+
+
+.login-main .name{
+    display: block;
+    width: 266px;
+    height: 34px;
+    margin: 30px auto 0;
+    border: none;
+    border: 1px #96a5b4 solid;
+    padding-left: 10px;
+    outline: none;
+    font-size: 14px;
+}
+.login-main .name:focus{
+    border: 1px #4892e7 solid;
+}
+
+
+.login-main .pw{
+    display: block;
+    width: 266px;
+    padding-left: 10px;
+    height: 34px;
+    margin: 18px auto 0;
+    border: none;
+    border: 1px #96a5b4 solid;
+    outline: none;
+}
+
+.login-main .pw:focus{
+    border: 1px #4892e7 solid;
+}
+
+.login-main .choose{
+    /* background-color: #bfa; */
+    width: 280px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+.choose .square{
+    float: left;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #96a5b4;
+    margin-top: 24px;
+}
+.choose span{
+    float: left;
+    margin-top: 27px;
+    margin-left: 5px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.choose .tag{
+    display: none;
+}
+.choose a:focus .tag{
+    display: block;
+}
+
+.login-main .button a{
+    display: block;
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+}
+.login-main .sub{
+    display: block;
+    width: 280px;
+    height: 40px; 
+    background-color: #5a98de;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.login-main .sub:hover{
+    background-color: #6aa2e0;
+}
+
+.login-main .qrcode{
+    width: 280px;
+    margin: 14px auto;
+    text-align: center;
+}
+
+.qrcode .iconfont{
+    font-size: 20px;
+    vertical-align: text-top;
+}
+
+.qrcode a{
+    font-size: 13px;
+}
+
+.login-main .btm{
+    width: 280px;
+    margin: 50px auto 0;
+    font-size: 12px;
+    color: #547cab;
+}
+.btm a:hover{
+    text-decoration: underline;
+}
+.btm .ps{
+    float: left;
+    color: #225592;
+}
+
+.btm .zh{
+    float: right;
+    color: #225592;
+}
+
+.footer-wrapper{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer ul{
+    width: 100%;
+    background-color: #eff4fa;
+    height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer li{
+    flex: none;
+    font-size: 12px;
+}
+.footer li a:hover{
+    text-decoration: underline;
+}
+
+.footer .line{
+    color: #b6b6c5;
+    margin: 0 6px;
+}
+
+.footer .last{
+    color: #a18686;
+}
