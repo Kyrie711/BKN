@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "637795",
+      "name": "搜素",
+      "font_class": "sousu",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1049942",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1563922",
+      "name": "警徽",
+      "font_class": "jingwuicon_svg-",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "1799455",
+      "name": "星星",
+      "font_class": "star",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "4685710",
+      "name": "信息",
+      "font_class": "Group-",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "4879732",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "5203277",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "6539437",
+      "name": "书",
+      "font_class": "shu",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "7159311",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "7978865",
+      "name": "地球",
+      "font_class": "icon_website_huabanfuben",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "10651926",
+      "name": "标签",
+      "font_class": "shoucang-",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "14308873",
+      "name": "树",
+      "font_class": "shu3",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "14313272",
+      "name": "向上置顶",
+      "font_class": "xiangshangzhiding",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "15938962",
+      "name": "图书馆2",
+      "font_class": "tushuguan2",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "16392813",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "19687895",
+      "name": "wifi",
+      "font_class": "Wireless-fill",
+      "unicode": "eb63",
+      "unicode_decimal": 60259
+    }
+  ]
+}
