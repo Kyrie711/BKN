@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body>
+    <div class="topbar-wrapper">
+
+        <div class="topbar">
+            <div class="logo"><a href="javascript:;"><img src="img/logo.png"></a></div>
+            <ul>
+                <li><a href="javascript:;">音乐馆</a></li>
+                <li><a href="javascript:;">我的音乐</a></li>
+                <li><a href="javascript:;">客户端</a><span>抢特权</span></li>
+                <li><a href="javascript:;">开放平台</a></li>
+                <li><a href="javascript:;">VIP</a></li>
+            </ul>
+            <div>
+                <input type="text" placeholder="搜索音乐、MV、歌单、用户">
+            
+                
+                    <ul id="ul" class="ext">
+                        <li><a href="javascript:;"><span class="span1">1</span>我们的歌<span class="span2">76.6万</span></a></li>
+                        <li><a href="javascript:;"><span class="span1">2</span>冰雪奇缘2<span class="span2">58.7万</span></a></li>
+                        <li><a href="javascript:;"><span class="span1">3</span>张杰<span class="span2">32.4万</span></a></li>
+                        <li><a href="javascript:;"><span class="span1">4</span>桥边姑娘<span class="span2">28.8万</span></a></li>
+                        <li><a href="javascript:;"><span class="span1">5</span>星辰大海<span class="span2">20.3万</span></a></li>
+                    
+                        <div class="lishi">
+                            <span>历史搜索</span>
+                            <a href="javascript:;"><i class="iconfont icon-lajixiang"></i></a>
+                        </div>
+                    </ul>
+               
+            </div>
+            <a href="javascript:;"><i class="iconfont icon-sousuo"></i></a>
+            <span><a href="javascript:;">登录</a></span>
+            <div id="CH" class="CH">
+                <div class="chong"><a href="javascript:;">充值 <i id="icon2" class="iconfont icon-xiangshang"></i></a></div>
+                <ul class="ext3">
+                    <li><a href="javascript:;">购买乐币</a></li>
+                    <li><a href="javascript:;">充值饭票</a></li>
+                </ul>
+            </div>
+            <div id="VIP" class="VIP">
+                <div class="vip"><a href="javascript:;">开通VIP <i id="icon1" class="iconfont icon-xiangxia"></i></a></div>
+                <ul class="ext2">
+                    <li><a href="javascript:;">开通绿钻豪华版</a></li>
+                    <li><a href="javascript:;">开通付费包</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">歌手</a></li>
+                <li><a href="javascript:;">新碟</a></li>
+                <li><a href="javascript:;">排行榜</a></li>
+                <li><a href="javascript:;">分类歌单</a></li>
+                <li><a href="javascript:;">电台</a></li>
+                <li><a href="javascript:;">MV</a></li>
+                <li><a href="javascript:;">数字专辑</a></li>
+                <li><a href="javascript:;">票务</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner-wrapper">
+        <div class="prev">
+            <a href="javascript:;"><i class="iconfont icon-xiangzuo"></i></a>
+        </div>
+        <div class="next">
+            <a href="javascript:;"><i class="iconfont icon-xiangyou"></i></a>
+        </div>
+        <div class="banner">
+            <h1>歌单推荐</h1>
+            <ul class="b-ul">
+                <li><a href="javascript:;">为你推荐</a></li>
+                <li><a href="javascript:;">网络歌曲</a></li>
+                <li><a href="javascript:;">轻音乐</a></li>
+                <li><a href="javascript:;">KTV热歌</a></li>
+                <li><a href="javascript:;">官方歌单</a></li>
+                <li><a href="javascript:;">情歌</a></li>
+            </ul>
+            <div class="img-list">
+                <ul id="imgul">
+                    
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300.jfif"></div></a>
+                        <h3><a href="javascript:;">美到窒息的轻音乐</a></h3>
+                        <h4>播放量：4061.0万</h4>
+                    </li>    
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (1).jfif"></div></a>
+                        <h3><a href="javascript:;">国风：奈何桥前叹奈何</a></h3>
+                        <h4>播放量：1201.0万</h4>
+                    </li>    
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (2).jfif"></div></a>
+                        <h3><a href="javascript:;">「中国风纯音」倚栏听风，如梦如醉</a></h3>
+                        <h4>播放量：252.9万</h4>
+                    </li>   
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (3).jfif"></div></a>
+                        <h3><a href="javascript:;">超燃BGM：打开游戏启动狂暴模式</a></h3>
+                        <h4>播放量：2860.5万</h4>
+                    </li>    
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (4).jfif"></div></a>
+                        <h3><a href="javascript:;">落日商店：贩卖温柔翻唱</a></h3>
+                        <h4>播放量：38.5万</h4>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><div></a><img src="img/300.png"></div></a>
+                        <h3><a href="javascript:;">流行 | 近年来火爆全网的歌曲</a></h3>
+                        <h4>播放量：3.7亿</h4>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (5).jfif"></div></a>
+                        <h3><a href="javascript:;">极致鼓点|轰炸你耳膜欧美trap</a></h3>
+                        <h4>播放量：87.5万</h4>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (6).jfif"></div></a>
+                        <h3><a href="javascript:;">最动听的许嵩</a></h3>
+                        <h4>播放量：2357.2万</h4>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (7).jfif"></div></a>
+                        <h3><a href="javascript:;">催泪100% | 试图截图留住一切</a></h3>
+                        <h4>播放量：3465.7万</h4>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (1).png"></div></a>
+                        <h3><a href="javascript:;">欧美｜节奏控的极致享受</a></h3>
+                        <h4>播放量：1557.8万</h4>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (8).jfif"></div></a>
+                        <h3><a href="javascript:;">爆款收割机！时下流行热歌合集</a></h3>
+                        <h4>播放量：4.3亿</h4>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><div><img src="img/300 (9).jfif"></div></a>
+                        <h3><a href="javascript:;">8090后:KTV必唱曲目</a></h3>
+                        <h4>播放量：2303.7万</h4>
+                    </li>
+                        
+                    
+                </ul>
+                <ul id="imgul2">
+                    <li><a href="javascript:;"></a></li>
+                    <li><a href="javascript:;"></a></li>
+                    <li><a href="javascript:;"></a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="new-wrapper">
+        <div class="prev1">
+            <a href="javascript:;"><i class="iconfont icon-xiangzuo"></i></a>
+        </div>
+        <div class="next1">
+            <a href="javascript:;"><i class="iconfont icon-xiangyou"></i></a>
+        </div>
+        <div class="new">
+            <h1>新歌首发</h1>
+            <div class="play">
+                <a href="javascript:;">
+                    <i class="iconfont icon-xiangyousanjiaoxing"></i>
+                    播放全部
+                </a>
+            </div>
+            <ul class="b-ul">
+                <li><a href="javascript:;">最新</a></li>
+                <li><a href="javascript:;">内地</a></li>
+                <li><a href="javascript:;">港台</a></li>
+                <li><a href="javascript:;">欧美</a></li>
+                <li><a href="javascript:;">韩国</a></li>
+                <li><a href="javascript:;">日本</a></li>
+            </ul>
+            <div class="list">
+                <ul class="newul">
+                    <ul>
+                        <li>
+                           <a href="javascript:;">
+                            <div><img src="img/0.jpg"></div>
+                            <h3>僕とまた</h3>
+                            <h4>2PM (투피엠)</h4>
+                            <span>03:47</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/1.jpg"></div>
+                                <h3>Arcadia</h3>
+                                <h4>Lana Del Rey</h4>
+                                <span>04:23</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/2.jpg"></div>
+                                <h3>24/7</h3>
+                                <h4>ONER灵超</h4>
+                                <span>03:00</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/3.jpg"></div>
+                                <h3>I Want...</h3>
+                                <h4>陈奕迅 /Renée Fleming /郎朗...</h4>
+                                <span>04:21</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/4.jpg"></div>
+                                <h3>说了再见</h3>
+                                <h4>王晰</h4>
+                                <span>04:51</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/5.jpg"></div>
+                                <h3>The Anonymous Ones (From...</h3>
+                                <h4>SZA</h4>
+                                <span>04:09</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/6.jpg"></div>
+                                <h3>Shivers</h3>
+                                <h4>Ed Sheeran</h4>
+                                <span>03:27</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/7.jpg"></div>
+                                <h3>Running Out of Roses</h3>
+                                <h4>Alan Walker /Jamie Miller</h4>
+                                <span>02:16</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/8.jpg"></div>
+                                <h3>빨간 립스틱 (Feat. 윤미래)</h3>
+                                <h4>李遐怡 (LeeHi) /尹美莱 (윤미...</h4>
+                                <span>03:07</span>
+                                </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                           <a href="javascript:;">
+                            <div><img src="img/0.jpg"></div>
+                            <h3>僕とまた</h3>
+                            <h4>2PM (투피엠)</h4>
+                            <span>03:47</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/1.jpg"></div>
+                                <h3>Arcadia</h3>
+                                <h4>Lana Del Rey</h4>
+                                <span>04:23</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/2.jpg"></div>
+                                <h3>24/7</h3>
+                                <h4>ONER灵超</h4>
+                                <span>03:00</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/3.jpg"></div>
+                                <h3>I Want...</h3>
+                                <h4>陈奕迅 /Renée Fleming /郎朗...</h4>
+                                <span>04:21</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/4.jpg"></div>
+                                <h3>说了再见</h3>
+                                <h4>王晰</h4>
+                                <span>04:51</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/5.jpg"></div>
+                                <h3>The Anonymous Ones (From...</h3>
+                                <h4>SZA</h4>
+                                <span>04:09</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/6.jpg"></div>
+                                <h3>Shivers</h3>
+                                <h4>Ed Sheeran</h4>
+                                <span>03:27</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/7.jpg"></div>
+                                <h3>Running Out of Roses</h3>
+                                <h4>Alan Walker /Jamie Miller</h4>
+                                <span>02:16</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/8.jpg"></div>
+                                <h3>빨간 립스틱 (Feat. 윤미래)</h3>
+                                <h4>李遐怡 (LeeHi) /尹美莱 (윤미...</h4>
+                                <span>03:07</span>
+                                </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                           <a href="javascript:;">
+                            <div><img src="img/0.jpg"></div>
+                            <h3>僕とまた</h3>
+                            <h4>2PM (투피엠)</h4>
+                            <span>03:47</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/1.jpg"></div>
+                                <h3>Arcadia</h3>
+                                <h4>Lana Del Rey</h4>
+                                <span>04:23</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/2.jpg"></div>
+                                <h3>24/7</h3>
+                                <h4>ONER灵超</h4>
+                                <span>03:00</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/3.jpg"></div>
+                                <h3>I Want...</h3>
+                                <h4>陈奕迅 /Renée Fleming /郎朗...</h4>
+                                <span>04:21</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/4.jpg"></div>
+                                <h3>说了再见</h3>
+                                <h4>王晰</h4>
+                                <span>04:51</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/5.jpg"></div>
+                                <h3>The Anonymous Ones (From...</h3>
+                                <h4>SZA</h4>
+                                <span>04:09</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/6.jpg"></div>
+                                <h3>Shivers</h3>
+                                <h4>Ed Sheeran</h4>
+                                <span>03:27</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/7.jpg"></div>
+                                <h3>Running Out of Roses</h3>
+                                <h4>Alan Walker /Jamie Miller</h4>
+                                <span>02:16</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/8.jpg"></div>
+                                <h3>빨간 립스틱 (Feat. 윤미래)</h3>
+                                <h4>李遐怡 (LeeHi) /尹美莱 (윤미...</h4>
+                                <span>03:07</span>
+                                </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                           <a href="javascript:;">
+                            <div><img src="img/0.jpg"></div>
+                            <h3>僕とまた</h3>
+                            <h4>2PM (투피엠)</h4>
+                            <span>03:47</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/1.jpg"></div>
+                                <h3>Arcadia</h3>
+                                <h4>Lana Del Rey</h4>
+                                <span>04:23</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/2.jpg"></div>
+                                <h3>24/7</h3>
+                                <h4>ONER灵超</h4>
+                                <span>03:00</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/3.jpg"></div>
+                                <h3>I Want...</h3>
+                                <h4>陈奕迅 /Renée Fleming /郎朗...</h4>
+                                <span>04:21</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/4.jpg"></div>
+                                <h3>说了再见</h3>
+                                <h4>王晰</h4>
+                                <span>04:51</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/5.jpg"></div>
+                                <h3>The Anonymous Ones (From...</h3>
+                                <h4>SZA</h4>
+                                <span>04:09</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/6.jpg"></div>
+                                <h3>Shivers</h3>
+                                <h4>Ed Sheeran</h4>
+                                <span>03:27</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/7.jpg"></div>
+                                <h3>Running Out of Roses</h3>
+                                <h4>Alan Walker /Jamie Miller</h4>
+                                <span>02:16</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/8.jpg"></div>
+                                <h3>빨간 립스틱 (Feat. 윤미래)</h3>
+                                <h4>李遐怡 (LeeHi) /尹美莱 (윤미...</h4>
+                                <span>03:07</span>
+                                </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                           <a href="javascript:;">
+                            <div><img src="img/0.jpg"></div>
+                            <h3>僕とまた</h3>
+                            <h4>2PM (투피엠)</h4>
+                            <span>03:47</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/1.jpg"></div>
+                                <h3>Arcadia</h3>
+                                <h4>Lana Del Rey</h4>
+                                <span>04:23</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/2.jpg"></div>
+                                <h3>24/7</h3>
+                                <h4>ONER灵超</h4>
+                                <span>03:00</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/3.jpg"></div>
+                                <h3>I Want...</h3>
+                                <h4>陈奕迅 /Renée Fleming /郎朗...</h4>
+                                <span>04:21</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/4.jpg"></div>
+                                <h3>说了再见</h3>
+                                <h4>王晰</h4>
+                                <span>04:51</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/5.jpg"></div>
+                                <h3>The Anonymous Ones (From...</h3>
+                                <h4>SZA</h4>
+                                <span>04:09</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/6.jpg"></div>
+                                <h3>Shivers</h3>
+                                <h4>Ed Sheeran</h4>
+                                <span>03:27</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/7.jpg"></div>
+                                <h3>Running Out of Roses</h3>
+                                <h4>Alan Walker /Jamie Miller</h4>
+                                <span>02:16</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div><img src="img/8.jpg"></div>
+                                <h3>빨간 립스틱 (Feat. 윤미래)</h3>
+                                <h4>李遐怡 (LeeHi) /尹美莱 (윤미...</h4>
+                                <span>03:07</span>
+                                </a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <ul class="newul2">
+                
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="footer-wrapper">
+        <div class="footer">
+            <ul>
+                <h3>下载QQ音乐客户端</h3>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-win"></i>
+                        PC版
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-mac1"></i>
+                        Mac版
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-android"></i>
+                        Android版
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-mac"></i>
+                        iPhone版
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <h3>特色产品</h3>
+                <li><a href="javascript:;">全民K歌</a></li>
+                <li><a href="javascript:;">Super Sound</a></li>
+                <li><a href="javascript:;">Qplay</a></li>
+                <li><a href="javascript:;">Fan直播伴侣</a></li>
+                <li><a href="javascript:;">车载互联</a></li>
+                <li><a href="javascript:;">QQ演出</a></li>
+            </ul>
+            <ul>
+                <h3>合作链接</h3>
+                <li><a href="javascript:;">CJ ENM</a></li>
+                <li><a href="javascript:;">腾讯视频</a></li>
+                <li><a href="javascript:;">手机QQ空间</a></li>
+                <li><a href="javascript:;">最新版QQ</a></li>
+                <li><a href="javascript:;">腾讯社交广告</a></li>
+                <li><a href="javascript:;">电脑管家</a></li>
+                <li><a href="javascript:;">QQ浏览器</a></li>
+                <li><a href="javascript:;">腾讯微云</a></li>
+                <li><a href="javascript:;">腾讯云</a></li>
+                <li><a href="javascript:;">企鹅FM</a></li>
+                <li><a href="javascript:;">智能电视网</a></li>
+                <li><a href="javascript:;">当贝市场</a></li>
+                <li><a href="javascript:;">酷我音乐</a></li>
+                <li><a href="javascript:;">酷狗听书</a></li>
+            </ul>
+            <ul>
+                <h3>开放平台</h3>
+                <li><a href="javascript:;">QQ音乐开放平台</a></li>
+                <li><a href="javascript:;">腾讯音乐人</a></li>
+            </ul>
+            <ul>
+                <h3>TME集团官网</h3>
+                <li><a href="javascript:;">腾讯音乐</a></li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li><a href="javascript:;">关于腾讯</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">About Tencent</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">服务条款</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">用户服务协议</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">隐私政策</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">权利声明</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">广告服务</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">腾讯招聘</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">客服中心</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">网站导航</a></li>
+            </ul>
+            <p>Copyright © 1998 - 2021 Tencent. All Rights Reserved.</p>
+            <ul>
+                <span>腾讯公司</span>
+                <li><a href="javascript:;">版权所有</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">营业执照</a></li>
+                <span>网络文化经营许可证：</span>
+                <li><a href="javascript:;">粤网文[2020]3396-195号</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        $('#VIP').hover(function(){
+            $('#icon1').replaceWith('<i id="icon1" class="iconfont icon-xiangshang"></i>')
+    },function(){
+        $('#icon1').replaceWith('<i id="icon1" class="iconfont icon-xiangxia"></i>')
+    })
+        $('#CH').hover(function(){
+            $('#icon2').replaceWith('<i id="icon2" class="iconfont icon-xiangxia"></i>')
+    },function(){
+        $('#icon2').replaceWith('<i id="icon2" class="iconfont icon-xiangshang"></i>')
+    })
+
+        // var next = $('.next')
+        // var prev = $('.prev')
+        // var points = $('#imgul2 li')
+        // var index = 0
+        // var pagewidth = 1200
+        // var TIME = 400 // 翻页的持续时间
+        // var ITEM_TIME = 20 // 单元移动的间隔时间
+        // var imgul = $('#imgul')
+        // var imgCount = points.length
+
+        // next.click(function(){
+        //     nextPage(true)
+        // })
+        // prev.click(function(){
+        //     nextPage(false)
+        // })
+        // points.click(function(){
+        //     var targetIndex = $(this).index()
+        //     if(targetIndex!=index) {
+        //         nextPage(targetIndex)
+        //     }
+        // })
+        // function nextPage (next) {
+        //     var offset = 0
+        //     if(typeof next == 'boolean') {
+        //         offset = next ? -pagewidth : pagewidth
+        //     }else{
+        //         offset = -(next-index)* pagewidth
+        //     }
+        //     var itemOffset = offset/(TIME/ITEM_TIME)
+        //     var currLeft = imgul.position().left
+        //     var targetLeft = currLeft + offset
+
+        //     var intervalId = setInterval(function(){
+        //         currLeft += itemOffset
+        //         if(currLeft===targetIndex){
+        //             clearInterval(intervalId)
+        //         }
+        //         imgul.css('left',currLeft)
+        //     },ITEM_TIME)
+        //     updatePoints(next)
+        // }
+        
+        var index = 0
+        var index1 = 0
+        var imgul = document.getElementById("imgul")
+        var newul = document.getElementsByClassName('newul')[0]
+        var imgul2 = document.getElementById("imgul2")
+        var newul2 = document.getElementsByClassName('newul2')[0]
+        var prev = document.getElementsByClassName('prev')[0]
+        var next = document.getElementsByClassName('next')[0]
+        var prev1 = document.getElementsByClassName('prev1')[0]
+        var next1 = document.getElementsByClassName('next1')[0]
+        
+        var aArry2 = newul2.getElementsByTagName('a')
+        var aArry = imgul2.getElementsByTagName('a')
+        aArry[index].style.backgroundColor = '#afafaf'
+        aArry2[index].style.backgroundColor = '#afafaf'
+   
+
+        for(let i=0;i<aArry.length;i++)
+        {
+            aArry[i].onclick = function(){
+
+                index = i
+
+                move(imgul,"left",30,-index*1200)
+
+                setA()
+                
+            }
+            
+        }
+       
+        next.onclick = function(){
+            index++
+            if(index===3){
+                index = 0
+            }
+            move(imgul,'left',30,-index*1200)
+            setA()
+            
+        }
+        prev.onclick = function(){
+            index--
+            if(index===-1){
+                index = 2
+            }
+            move(imgul,'left',30,-index*1200)
+            setA()
+            
+        }
+       
+
+        function setA(){
+            for(var i=0;i<aArry.length;i++)
+                {
+                    aArry[i].style.backgroundColor = "";
+                
+                }
+                aArry[index].style.backgroundColor = "#afafaf";
+        }
+        
+        function move(obj,dir,pace,target,callback){
+            clearInterval(obj.timer);
+            if(parseInt(getComputedStyle(obj,null)[dir]) > target)
+            {
+                pace = -pace;
+            }
+            
+            obj.timer = setInterval(function(){
+                var oldValue = parseInt(getComputedStyle(obj,null)[dir]);
+                var newValue = oldValue + pace;
+                
+                if((pace>0 && newValue>=target)||(pace<0 && newValue<=target))
+                {
+                    newValue = target;
+                }
+                obj.style[dir] = newValue + "px";
+                if(newValue==target)
+                {
+                    clearInterval(obj.timer);
+                    callback && callback();
+                }
+                
+            },5)
+            
+
+        }
+        for(let i=0;i<aArry2.length;i++)
+        {
+            aArry2[i].onclick = function(){
+
+                index1 = i
+
+                move(newul,"left",30,-index1*1200)
+
+                setA1()
+                
+            }
+            
+        }
+        next1.onclick = function(){
+            index1++
+            if(index1===5){
+                index1 = 0
+            }
+            move(newul,'left',30,-index1*1200)
+            setA1()
+            
+        }
+        prev1.onclick = function(){
+            index1--
+            if(index1===-1){
+                index1 = 4
+            }
+            move(newul,'left',30,-index1*1200)
+            setA1()
+            
+        }
+        function setA1(){
+            for(var i=0;i<aArry2.length;i++)
+                {
+                    aArry2[i].style.backgroundColor = "";
+                
+                }
+                aArry2[index1].style.backgroundColor = "#afafaf";
+        }
+    </script>
+</body>
+</html>

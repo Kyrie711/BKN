@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "588406",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "835871",
+      "name": "android",
+      "font_class": "android",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "1314338",
+      "name": "垃圾箱",
+      "font_class": "lajixiang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "2199040",
+      "name": "mac",
+      "font_class": "mac",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "2325951",
+      "name": "win",
+      "font_class": "win",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "2678652",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "2678653",
+      "name": "向左",
+      "font_class": "xiangzuo",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "6874516",
+      "name": "向右三角形",
+      "font_class": "xiangyousanjiaoxing",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "13743955",
+      "name": "mac",
+      "font_class": "mac1",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "17124324",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "17124326",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    }
+  ]
+}
